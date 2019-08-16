@@ -21,3 +21,8 @@ comandos no prompt de comando:
 "git commit -m "Arquivo criado"" -> cria um rótulo na memória
 
 "git push" -> grava o que está na memoria no github.
+
+"git config --global user.email "(email conta git hub)""
+
+"git config --global user.name "(nome usuario git hub)""
+

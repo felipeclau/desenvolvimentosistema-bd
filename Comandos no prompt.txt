@@ -1,0 +1,17 @@
+PROMPT DE COMANDO
+
+*sempre em ingles
+
+comandos no prompt de comando:
+
+"cd (nome da pasta ou o caminho da pasta desejada)"-> abrir a pasta
+
+"cd.." -> fecha a pasta
+
+"cd\" -> fecha todas as pastas abertas
+
+"cls" -> limpa a tela
+
+"dir" -> visualizar o conteúdo de um diretório
+
+"md (nome da pasta)" -> comando para criar uma pasta

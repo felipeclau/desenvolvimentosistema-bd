@@ -15,3 +15,9 @@ comandos no prompt de comando:
 "dir" -> visualizar o conteúdo de um diretório
 
 "md (nome da pasta)" -> comando para criar uma pasta
+
+"git add ." -> adicionar itens na memória
+
+"git commit -m "Arquivo criado"" -> cria um rótulo na memória
+
+"git push" -> grava o que está na memoria no github.

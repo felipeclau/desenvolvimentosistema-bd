@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title> Formulários </title>
+</head>
+<body>
+    <!-- as propriedades do formulario sempre se coloca no começo, na tag "form"
+    method="GET" >> só para receber informação. Ele pode enviar as informações mas vai salvar na URL
+    method="POST" >> para enviar enviar as informações colocando as informações sempre de forma oculta, somente no servidor-->
+
+    <form name="login"
+          action="" 
+          method="POST">
+       
+       <label>Nome do Usuário </label><br/> <!-- representa texto dentro do formulario -->
+        <!-- <input> entrada de dados, qual o tipo de dados que irá receber. Não tem abertura e fechamento -->   
+        <input type="text" 
+                maxlength="15"
+                placeholder="Digite"
+                name="user"
+                required/><br/>    
+        
+        <br/><label>Senha:</label><br/>
+        <input type="password"
+                maxlength="8"
+                name="senha"/><br/>
+        
+        <!-- o "value" é o valor que vai ser mandado para a base de dados, é a variável.-->
+        <br/>Estado<br/>
+        <select name="Estado">
+            <option value="SP"> São Paulo</option>
+            <option value="RJ"> Rio de Janeiro</option>
+            <option value="MG"> Minas Gerais</option>
+            <option value="PR"> Paraná</option>
+        </select><br/>
+
+        <br/>Mensagem:<br/>
+        <textarea>
+        
+        </textarea><br/>
+
+
+        <input type="submit"
+                value="OK"/>
+        <input type="reset" value="Limpar"/>
+
+
+    </form>
+
+</body>
+</html>
+<!--value="Digite o nome"/> -> é um valor fixo dentro de um campo 
+name >> equivalente a uma varíavel dentro da linguagem de programação -->
